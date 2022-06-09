@@ -52,14 +52,38 @@
           <div class="col">
             <div class="accordion" id="accordionExample">
   <div class="accordion-item">
-    <h2 class="accordion-header text-dark" id="headingOne">
+    <h2 class="accordion-header text-dark fs-2" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         Languages
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <ul class="language-list d-flex flex-row">
+          <div >
+            <span class="badge bg-light text-secondary p-3">
+            <li class="language">
+                  <img src="images/js-icon.svg" alt="javascript icon" aria-hidden="true" />
+                  <p class="mt-3 fs-6">JavaSript</p>
+                </li></span>
+          </div>
+
+                <div class="px-5">
+                  <span class="badge bg-light text-secondary p-3">
+            <li class="language">
+                  <img src="images/html-icon.svg" alt="html icon" aria-hidden="true" />
+                  <p class="mt-3 fs-6">HTML</p>
+                </li></span>
+                </div>
+
+                
+                  <span class="badge bg-light text-secondary p-3">
+            <li class="language">
+                  <img src="images/css-icon.svg" alt="css icon" aria-hidden="true" />
+                  <p class="mt-3 fs-6">CSS</p>
+                </li></span>
+                
+              </ul>
       </div>
     </div>
   </div>
@@ -69,11 +93,7 @@
         Frameworks
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
+    
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
@@ -81,46 +101,10 @@
         Skills
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
+    
   </div>
 </div>
-            <ul class="languages-section">
-            <li class="languages">
-              <div class="languages-title">
-                <h2>Languages</h2>
-                <!-- <img src="images/downarrow.svg" alt="down arrow icon" /> -->
-              </div>
-
-              <ul class="language-list">
-                <li class="language">
-                  <!-- <img src="images/js-icon.svg" alt="javascript icon" aria-hidden="true" /> -->
-                  <p>JavaSript</p>
-                </li>
-                <li class="language">
-                  <!-- <img src="images/html-icon.svg" alt="html icon" aria-hidden="true" /> -->
-                  <p>HTML</p>
-                </li>
-                <li class="language">
-                  <!-- <img src="images/css-icon.svg" alt="css icon" aria-hidden="true" /> -->
-                  <p>CSS</p>
-                </li>
-              </ul>
-            </li>
-
-            <li class="frameworks">
-              <h2>Frameworks</h2>
-              <!-- <img src="images/next.png" alt="next icon" aria-hidden="true" /> -->
-            </li>
-
-            <li class="skills-a">
-              <h2>Skills</h2>
-              <!-- <img src="images/next.png" alt="next-icon" aria-hidden="true" /> -->
-            </li>
-          </ul>
+            
           </div>
           </div>
         </section>
