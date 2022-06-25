@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://tekyrey.github.io/Portfolio/)
+[Live Demo Link](https://tekyrey.github.io/bootstraped-portfolio/)
 
 
 
