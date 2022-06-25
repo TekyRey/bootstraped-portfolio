@@ -11,56 +11,52 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="images/logo.png" />
+    <link href="style.css" rel="stylesheet">
     <title>Rehema's Portfolio</title>
   </head>
-  <body>
-    <div class="">
-      <header class="">
-        <nav class="">
-          <!-- <div class="">
-            <button type="button">
-              <img class="" src="images/x.png" alt="close-icon" />
-            </button>
-            <div class="">
-              <a href="#portfolio">Portfolio</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
-            </div>
-          </div> -->
-          <a class="" href="#"><img src="images/logo.png" alt="My Logo"/></a>
-
-          <!-- <a href="#" class=""
-            ><img src="images/menu-icon.svg" alt="Menu Icon" aria-hidden="true"
-          /></a> -->
-          <ul class="">
-            <li><a href="#portfolio">Porfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+  <body class="m-0 p-0">
+      
+    <div class="container mt-0">
+      <header class="row">
+        <nav class="navbar navbar-light navbar-expand-lg col-lg-11">
+           <a href="#" class="navbar-brand px-2"><img src="images/logo.png" class="img-responsive mx-3 px-2" height="35px" class="d-inline-block align-top" alt="My Logo"/></a>
+           <button class="navbar-toggler text-primary border-0 mx-4 pe-2" data-toggle="collapse" data-target="#navbarCollapse">&#9776;</button>
+           <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item"><a href="#portfolio" class="nav-link">Porfolio</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="#contact">Contact</a></li>
+               </ul>
+          </div>
         </nav>
       </header>
 
-      <div class="">
-        <main>
-          <div class="">
-          <h1>
-            I'm Rehema <br />
-            Glad to see you !
-          </h1>
-          <p>
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
-        </div>
-
-        <div class="">
-          <p>let's connect</p>
-          <div class="">
-            <ul>
-              <li>
+      <section class="hero-section ms-5 mt-5">
+        <main class="row">
+            <div class="col-md-10 my-3 pt-5">
+                <h1>
+                  I'm Rehema <br />
+                  Glad to see you !
+                </h1>
+                <p class="pe-2">
+                  I’m a software developer! I can help you build a product , feature
+                  or website Look through some of my work and experience! If you like
+                  what you see and have a project you need coded, don’t hestiate to
+                  contact me.
+                </p>
+              </div>
+         <div class="row">
+          <p class="text-primary my-0">let's connect</p>
+          <div class="row">
+            <ul style="list-style:none;" class="d-flex ps-1">
+              <li class="nav-items m-2">
                 <a href="https://twitter.com/RehemaMwaka1">
                   <img
                     src="./images/twitter.svg"
@@ -69,24 +65,18 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="nav-items m-2">
                 <a
                   href="https://www.linkedin.com/mwlite/in/rehema-mwaka-48a1801ab"
-                  class=""
-                >
+                  class=""  >
                   <img
                     class=""
                     src="./images/1.svg"
                     alt="linkedin-icon"
                   />
-                  <img
-                    class=""
-                    src="./images/n.svg"
-                    alt="linkedin-icon"
-                  />
-                </a>
+                    </a>
               </li>
-              <li>
+              <li class="nav-items m-2">
                 <a href="#">
                   <img
                     src="./images/medium.svg"
@@ -95,7 +85,7 @@
                   />
                 </a>
               </li>
-              <li>
+              <li class="nav-items m-2">
                 <a href="https://github.com/TekyRey">
                   <img
                     src="./images/github.svg"
@@ -105,7 +95,7 @@
                 </a>
               </li>
 
-              <li>
+              <li class="nav-items m-2">
                 <a href="#">
                   <img
                     src="./images/angel.svg"
@@ -117,171 +107,170 @@
             </ul>
           </div>
         </div>
+       
         </main>
-      </div>
-      <section id="portfolio" class="">
-        <div class="">
-          <!-- <img
-            class=""
-            src="images/tonic-section.svg"
-            alt="tonic image"
-            aria-hidden="true"
-          /> -->
-
-          <img
+    </section>
+      <section class="bg-light p-5">
+    <div class ="card m-4 p-4 mb-5 mt-5">
+    <div class="row">
+        <div class="col">
+             <img
             class=""
             src="images/desktop-snap1.svg"
             alt="desktop image"
             aria-hidden="true"
           />
 
-          <div class="">
-            <h2>Tonic</h2>
-            <div class="">
-              <p class="">Canopy</p>
-              <img src="images/Counter.svg" alt="Counter Image" aria-hidden="true" />
-              <p class="">Back End Dev</p>
-              <img src="images/Counter.svg" alt="Counter Image" aria-hidden="true" />
-              <p class="">2015</p>
+        </div>
+        <div class="col"><h2 class="text-bold fs-2">Tonic</h2>
+            <div class="d-flex flex-row mb-4">
+                <span class="badge rounded-pill fs-6 text-dark">Canopy</span>
+                <span class="badge rounded-pill "><img class="p-0" src="images/Counter.svg" alt="Counter Image" aria-hidden="true" /></span>
+                <span class="badge rounded-pill fs-6 text-secondary">Back End Dev</span>
+                <span class="badge rounded-pill "><img class="p-0" src="images/Counter.svg" alt="Counter Image" aria-hidden="true" /></span>
+                <span class="badge rounded-pill fs-6 text-secondary">2015</span>
+
             </div>
             <div>
               <p class="">
               A daily selection of privately personalized reads; no accounts or
-              sign-ups required
+              sign-ups <br> required
             </p>
-            <ul class="">
-              <li>html</li>
-              <li>css</li>
-              <li class="">Ruby on Rails</li>
-              <li>javaScript</li>
+            <ul class="list-group d-flex flex-row mb-5" >
+              <li class="m-0"><span class="badge rounded-pill bg-info text-primary">html</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">css</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">Ruby</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">javascript</span></li>
             </ul>
             </div>
-            <button class="" type="submit">See Project</button>
-          </div>
+             <button class="btn btn-outline-primary btn-lg" >See Project</button>
         </div>
+    </div>
+</div>
 
-        <div class="">
-          <!-- <img
-            class=""
-            src="images/availability-section.svg"
-            alt="portfolio image"
-            aria-hidden="true"
-          /> -->
+<div class ="card m-4 p-4 mb-5">
+    <div class="row">
+        
+        <div class="col"><h2 class="text-bold fs-2">Tonic</h2>
+            <div class="d-flex flex-row mb-4">
+                <span class="badge rounded-pill fs-6 text-dark">Canopy</span>
+                <span class="badge rounded-pill "><img class="p-0" src="images/Counter.svg" alt="Counter Image" aria-hidden="true" /></span>
+                <span class="badge rounded-pill fs-6 text-secondary">Back End Dev</span>
+                <span class="badge rounded-pill "><img class="p-0" src="images/Counter.svg" alt="Counter Image" aria-hidden="true" /></span>
+                <span class="badge rounded-pill fs-6 text-secondary">2015</span>
 
-          <img
+            </div>
+            <div>
+              <p class="">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups <br> required
+            </p>
+            <ul class="list-group d-flex flex-row mb-5" >
+              <li class="m-0"><span class="badge rounded-pill bg-info text-primary">html</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">css</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">Ruby</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">javascript</span></li>
+            </ul>
+            </div>
+             <button class="btn btn-outline-primary btn-lg" >See Project</button>
+        </div>
+        <div class="col">
+             <img
             class=""
-            src="images/desktop-snap2.png"
+            src="images/desktop-snap1.svg"
             alt="desktop image"
             aria-hidden="true"
           />
 
-          <div class="">
-            <h2>Multi-Post Stories</h2>
-            <div class="">
-              <p class="">Canopy</p>
-              <img src="images/Counter.svg" alt="Portfolio Image" aria-hidden="true" />
-              <p class="">Back End Dev</p>
-              <img src="images/Counter.svg" alt="Portfolio Image" aria-hidden="true" />
-              <p class="">2015</p>
-            </div>
-            <p class="">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required
-            </p>
-            <ul class="">
-              <li>html</li>
-              <li>css</li>
-              <li class="">Ruby on Rails</li>
-              <li>javaScript</li>
-            </ul>
-            <button class="" type="submit">See Project</button>
-            
-          </div>
-
-          
         </div>
+    </div>
+</div>
+      
 
-        <div class="">
-          <!-- <img
+<div class ="card m-4 p-4 mb-5">
+    <div class="row">
+        <div class="col">
+             <img
             class=""
-            src="images/canopy.svg"
-            alt="Portfolio Image"
-            aria-hidden="true"
-          /> -->
-
-          <img
-            class=""
-            src="images/desktop-snap3.png"
+            src="images/desktop-snap1.svg"
             alt="desktop image"
             aria-hidden="true"
           />
 
-
-          <div class="">
-            <h2>Tonic</h2>
-            <div class="">
-              <p class="">Canopy</p>
-              <img src="images/Counter.svg" alt="Portfolio Image" aria-hidden="true" />
-              <p class="">Back End Dev</p>
-              <img src="images/Counter.svg" alt="Portfolio Image" aria-hidden="true" />
-              <p class="">2015</p>
-            </div>
-            <p class="">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required
-            </p>
-            <ul class="">
-              <li>html</li>
-              <li>css</li>
-              <li class="">Ruby on Rails</li>
-              <li>javaScript</li>
-            </ul>
-            <button class="" type="submit">See Project</button>
-          </div>
         </div>
+        <div class="col"><h2 class="text-bold fs-2">Tonic</h2>
+            <div class="d-flex flex-row mb-4">
+                <span class="badge rounded-pill fs-6 text-dark">Canopy</span>
+                <span class="badge rounded-pill "><img class="p-0" src="images/Counter.svg" alt="Counter Image" aria-hidden="true" /></span>
+                <span class="badge rounded-pill fs-6 text-secondary">Back End Dev</span>
+                <span class="badge rounded-pill "><img class="p-0" src="images/Counter.svg" alt="Counter Image" aria-hidden="true" /></span>
+                <span class="badge rounded-pill fs-6 text-secondary">2015</span>
 
-        <div class="">
-          <!-- <img
-            class=""
-            src="images/avail.svg"
-            alt="Mobile Image"
-            aria-hidden="true"
-          /> -->
+            </div>
+            <div>
+              <p class="">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups <br> required
+            </p>
+            <ul class="list-group d-flex flex-row mb-5" >
+              <li class="m-0"><span class="badge rounded-pill bg-info text-primary">html</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">css</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">Ruby</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">javascript</span></li>
+            </ul>
+            </div>
+             <button class="btn btn-outline-primary btn-lg" >See Project</button>
+        </div>
+    </div>
+</div>
+      
 
-          <img
+<div class ="card m-4 p-4 mb-5">
+    <div class="row">
+        
+        <div class="col"><h2 class="text-bold fs-2">Tonic</h2>
+            <div class="d-flex flex-row mb-4">
+                <span class="badge rounded-pill fs-6 text-dark">Canopy</span>
+                <span class="badge rounded-pill "><img class="p-0" src="images/Counter.svg" alt="Counter Image" aria-hidden="true" /></span>
+                <span class="badge rounded-pill fs-6 text-secondary">Back End Dev</span>
+                <span class="badge rounded-pill "><img class="p-0" src="images/Counter.svg" alt="Counter Image" aria-hidden="true" /></span>
+                <span class="badge rounded-pill fs-6 text-secondary">2015</span>
+
+            </div>
+            <div>
+              <p class="">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups <br> required
+            </p>
+            <ul class="list-group d-flex flex-row mb-5" >
+              <li class="m-0"><span class="badge rounded-pill bg-info text-primary">html</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">css</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">Ruby</span></li>
+              <li class="ms-3"><span class="badge rounded-pill bg-info text-primary">javascript</span></li>
+            </ul>
+            </div>
+             <button class="btn btn-outline-primary btn-lg" >See Project</button>
+        </div>
+        <div class="col">
+             <img
             class=""
-            src="images/desktop-snap4.png"
+            src="images/desktop-snap1.svg"
             alt="desktop image"
             aria-hidden="true"
           />
 
-          <div class="">
-            <h2>Multi-Post Stories</h2>
-            <div class="">
-              <p class="">Canopy</p>
-              <img src="images/Counter.svg" alt="Portfolio Image" aria-hidden="true" />
-              <p class="">Back End Dev</p>
-              <img src="images/Counter.svg" alt="Portfolio Image" aria-hidden="true" />
-              <p class="">2015</p>
-            </div>
-            <p class="">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required
-            </p>
-            <ul class="">
-              <li>html</li>
-              <li>css</li>
-              <li class="">Ruby on Rails</li>
-              <li>javaScript</li>
-            </ul>
-            <button class="" type="button">See Project</button>
-          </div>
         </div>
+    </div>
+</div>
 
-        <!-- About Me section  -->
-        <section id="about" class="">
-          <div class="">
-            <section class="">
+
+
+
+</section>
+
+<section id="about" class="bg-white about-me-section p-5 m-3 border rounded-end">
+          <div class=" row">
+            <div class="col">
               <h2>
                 About <br />
                 Myself
@@ -292,123 +281,99 @@
                 If you like what you see and have a project you need coded,
                 don’t hestiate to contact me.
               </p>
-              <div class="">
-                <h3>Lets Connect</h3>
+              <div class="social-platforms">
+                <h3 class="text-primary">Lets Connect</h3>
                 <img
                   src="images/social-media-icons.png"
                   alt="social-media-icons"
                   aria-hidden="true"
                 />
-                <ul>
-                  <li>
-                    <a href="https://twitter.com/RehemaMwaka1">
-                      <img
-                        src="./images/twitter.svg"
-                        class=""
-                        alt="twitter-icon"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/mwlite/in/rehema-mwaka-48a1801ab"
-                      class=""
-                    >
-                      <img
-                        class=""
-                        src="./images/1.svg"
-                        alt="linkedin-icon"
-                      />
-                      <img
-                        class=""
-                        src="./images/n.svg"
-                        alt="linkedin-icon"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="./images/medium.svg"
-                        class=""
-                        alt="medium-icon"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/TekyRey">
-                      <img
-                        src="./images/github.svg"
-                        class=""
-                        alt="github-icon"
-                      />
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#">
-                      <img
-                        src="./images/angel.svg"
-                        class=""
-                        alt="angellist-icon"
-                      />
-                    </a>
-                  </li>
-                </ul>
+                
               </div>
 
-              <button type="submit">Get my resume</button>
-            </section>
-          </div>
+              <div class="mt-5">
+              <button type="submit" class="btn btn-outline-primary">Get my resume</button>
+
+              </div>
+            </div>
+          
 
           <!-- Languages Section -->
-          <ul class="">
-            <li class="">
-              <div class="">
-                <h2>Languages</h2>
-                <img src="images/downarrow.svg" alt="down arrow icon" />
-              </div>
-
-              <ul class="">
-                <li class="">
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header text-dark fs-2" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Languages
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul class="language-list d-flex flex-row">
+          <div >
+            <span class="badge bg-light text-secondary p-3">
+            <li class="language">
                   <img src="images/js-icon.svg" alt="javascript icon" aria-hidden="true" />
-                  <p>JavaSript</p>
-                </li>
-                <li class="">
+                  <p class="mt-3 fs-6">JavaSript</p>
+                </li></span>
+          </div>
+
+                <div class="px-5">
+                  <span class="badge bg-light text-secondary p-3">
+            <li class="language">
                   <img src="images/html-icon.svg" alt="html icon" aria-hidden="true" />
-                  <p>HTML</p>
-                </li>
-                <li class="">
+                  <p class="mt-3 fs-6">HTML</p>
+                </li></span>
+                </div>
+
+                
+                  <span class="badge bg-light text-secondary p-3">
+            <li class="language">
                   <img src="images/css-icon.svg" alt="css icon" aria-hidden="true" />
-                  <p>CSS</p>
-                </li>
+                  <p class="mt-3 fs-6">CSS</p>
+                </li></span>
+                
               </ul>
-            </li>
-
-            <li class="frameworks">
-              <h2>Frameworks</h2>
-              <img src="images/next.png" alt="next icon" aria-hidden="true" />
-            </li>
-
-            <li class="">
-              <h2>Skills</h2>
-              <img src="images/next.png" alt="next-icon" aria-hidden="true" />
-            </li>
-          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Frameworks
+      </button>
+    </h2>
+    
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Skills
+      </button>
+    </h2>
+    
+  </div>
+</div>
+            
+          </div>
+          </div>
         </section>
-      </section>
       <!-- Contact me form  -->
-      <section id="contact" class="">
-        <div class="">
-        <h2>Contact me</h2>
-            <p>If you have an application you are interested in developing, a feature that you
-                 need built or a project that needs coding. I’d love to help with it </p>
-            <form action="https://formspree.io/f/mknyyevq" method="post">
-                <input type="text" placeholder="Yeremias" maxlength="30" required>
-                <input id="email" type="email" name="email" placeholder="natajayanj14@gmail.com" required>
-                <textarea cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
-                <button type="submit">Get in touch</button>
+      <section id="contact" class="row">
+        <div class="container-lg d-flex flex-column align-items-center">
+                  <div class="col-md-6 mx-2 px-3 text-md-center">
+                       <div class="row justify-content-center">
+                        <h2 class="text-light fw-bold text-center">Contact me</h2>
+                        <p class="text-light text-center">If you have an application you are interested in developing, a feature that you
+                        need built or a project that needs coding. I’d love to help with it </p>
+                      </div>
+            <form action="https://formspree.io/f/mknyyevq" method="post" class="col-md-12 px-3 color-light text-md-center">
+                <input class="my-2 mx-1 form-control" type="text" placeholder="Yeremias" maxlength="30" required>
+                <input id="email" class="mx-1 my-2 form-control"  type="email" name="email" placeholder="natajayanj14@gmail.com" required>
+                <textarea class="mx-1 my-2 form-control"  cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
+                <button class="btn ms-1 btn-light text-primary text-md-start" type="submit">Get in touch</button>
             </form>
+        </div>
         </div>
       </section>
     </div>
